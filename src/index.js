@@ -48,7 +48,7 @@ function renderOneRamenImage(ramen) {
 
 
 
-
+//Fetch data from server
 function getRamenImages() {
   fetch('http://localhost:3000/ramens')
     .then((response) => response.json())
